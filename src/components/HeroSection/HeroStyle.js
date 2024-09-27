@@ -99,7 +99,7 @@ export const Img = styled.img`
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 2px solid ${({ theme }) => theme.white};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -171,7 +171,7 @@ export const ResumeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
+    width: 40%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
