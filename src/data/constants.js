@@ -97,7 +97,7 @@ export const Bio = {
         {
           name: "Microservices",
           image:
-            "https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/microservice-icon.png",
+            "https://cdn.iconscout.com/icon/premium/png-512-thumb/microservices-7894587-6321149.png?f=webp&w=256",
         },
         {
           name: "RDBMS",
@@ -140,9 +140,8 @@ export const Bio = {
       role: "Software Development Engineer",
       company: "Bewakoof Brands Pvt. Ltd.",
       date: "Jan 2021 - Mar 2022",
-      desc: "• Backend API Development: Developed APIs to enable customers to share posts about the products they bought on Bewakoof’s social feed. Integrated the social feed with a recommendation system to provide product recommendations for customers. • Product Grouping Algorithm: Designed and built a system that grouped together products that were frequently bought together and offered them at a discounted price resulting in a 24% increase in sales. • Multi-language Support: Built a scalable backend system that translated Bewakoof’s website, with over 1 million users, into regional languages using ElasticSearch to index and store the translations. • Recognition: Received the “Rookie to Rockstar” award in recognition of my efforts.",
+      desc: "• Backend API Development: \nDeveloped APIs to enable customers to share posts about the products they bought on Bewakoof’s social feed. Integrated the social feed with a recommendation system to provide product recommendations for customers. • Product Grouping Algorithm: Designed and built a system that grouped together products that were frequently bought together and offered them at a discounted price resulting in a 24% increase in sales. • Multi-language Support: Built a scalable backend system that translated Bewakoof’s website, with over 1 million users, into regional languages using ElasticSearch to index and store the translations. • Recognition: Received the “Rookie to Rockstar” award in recognition of my efforts.",
       skills: ["Ruby on Rails", "MySQL", "ElasticSearch", "REST APIs",],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     {
       id: 1,
@@ -164,7 +163,7 @@ export const Bio = {
     },
     {
       id: 3,
-      img: "https://static.wikia.nocookie.net/logopedia/images/c/cb/Bharat_Electronics.jpeg/revision/latest?cb=20200827172454",
+      img: "https://static.wikia.nocookie.net/logopedia/images/c/cb/Bharat_Electronics.jpeg",
       role: "Intern",
       company: "Bharat Electronics Limited",
       date: "Jun 2019 - Jul 2019",

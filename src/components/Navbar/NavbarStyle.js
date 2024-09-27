@@ -2,7 +2,7 @@ import { Link as LinkR } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Nav = styled.div`
-    background: ${({ theme }) => theme.card_light};
+    background: ${({ theme }) => theme.black};
     height: 80px;
     display: flex;
     justify-content: center;

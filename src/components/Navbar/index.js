@@ -22,7 +22,7 @@ const Navbar = () => {
                         }}
                     >
                         <HiAcademicCap size="3rem" />
-                        <Span>Portfolio</Span>
+                        <Span>Harsha</Span>
                     </a>
                 </NavLogo>
                 <MobileIcon>

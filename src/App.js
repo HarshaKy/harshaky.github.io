@@ -4,11 +4,11 @@ import { darkTheme } from './utils/Themes';
 import Navbar from './components/Navbar';
 import Hero from './components/HeroSection';
 import Skills from './components/Skills';
-import Education from './components/Education';
+import Experience from './components/Experience';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const Body = styled.div`
-  background-color: ${({ theme }) => theme.bg};
+  background-color: ${({ theme }) => theme.black};
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -17,7 +17,6 @@ const Body = styled.div`
 const Wrapper = styled.div`
   background: black;
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 `
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
-            <Education />
+            <Experience />
           </Wrapper>
         </Body>
       </Router>
