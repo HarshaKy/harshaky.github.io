@@ -20,6 +20,7 @@ const Navbar = () => {
                             marginBottom: '20',
                             cursor: 'pointer',
                         }}
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     >
                         <HiAcademicCap size="3rem" />
                         <Span>Harsha</Span>
@@ -47,12 +48,12 @@ const Navbar = () => {
             {
                 open && (
                     <MobileMenu open={open}>
-                        <MobileMenuLinks to="#about">About</MobileMenuLinks>
-                        <MobileMenuLinks to="#skills">Skills</MobileMenuLinks>
-                        <MobileMenuLinks to="#experience">Experience</MobileMenuLinks>
-                        <MobileMenuLinks to="#projects">Projects</MobileMenuLinks>
-                        <MobileMenuLinks to="#education">Education</MobileMenuLinks>
-                        <MobileMenuLinks to="#contact">Contact</MobileMenuLinks>
+                        <MobileMenuLinks href="#about">About</MobileMenuLinks>
+                        <MobileMenuLinks href="#skills">Skills</MobileMenuLinks>
+                        <MobileMenuLinks href="#experience">Experience</MobileMenuLinks>
+                        <MobileMenuLinks href="#projects">Projects</MobileMenuLinks>
+                        <MobileMenuLinks href="#education">Education</MobileMenuLinks>
+                        <MobileMenuLinks href="#contact">Contact</MobileMenuLinks>
                         <GithubButton
                             style={{
                                 width: 'max-content',
