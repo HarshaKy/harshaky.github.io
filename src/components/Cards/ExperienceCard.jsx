@@ -135,8 +135,8 @@ const ItemWrapper = styled.div`
 
 const Skill = styled.div`
     font-size: 15px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
+    font-weight: 700;
+    color: ${({ theme }) => theme.primary};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -157,7 +157,9 @@ const ExperienceCard = ({ experience }) => {
             </Top>
             <Description>
                 {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+                    <Span>{experience?.desc.split("\n").map((i, key) => {
+                        return <div style={{paddingBottom: '10px'}} key={key}>{i}</div>;
+                    })}</Span>
 
                 }
                 {experience?.skills &&
